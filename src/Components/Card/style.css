@@ -1,0 +1,16 @@
+.card-div {
+    width: 600px;
+    height: 300px;
+    padding: 5px;
+    background-color: #06908f;
+    margin-bottom: 20px;
+    border-radius: 0.5em;
+    box-shadow: 5px 5px #01665a;
+}
+
+.desc-title{
+    margin-bottom: 0;
+}
+h4{
+    margin-top: 0;
+}

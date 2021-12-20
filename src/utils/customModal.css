@@ -1,0 +1,31 @@
+.closeModalBtn {
+    position: absolute;
+    border: none;
+    margin: 10px;
+    margin-left: 47.5%;
+    font-weight: 600;
+    font-size:xx-large;
+    cursor: pointer;
+    padding: 5px 12.5px;
+    border-radius:50%;
+    background-color: whitesmoke;
+    color: black;
+    opacity: 0.1;
+    transition: 0.5;
+    z-index: 20;
+}
+
+.closeModalBtn:hover {
+        position: absolute;
+        border: none;
+        font-weight: 600;
+        font-size:xx-large;
+        cursor: pointer;
+        padding: 5px 12.5px;
+        border-radius:50%;
+        background-color: whitesmoke;
+        color: black;
+        transition: 0.5s;
+        opacity: 1;
+        z-index: 20;
+}
