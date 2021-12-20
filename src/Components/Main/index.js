@@ -2,12 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./style.css";
 import { Card } from "../Card";
 
-import CustomModal from "../../utils/CustomModal";
 
 const Main = (props) => {
     const [episodes,setEpisodes] = useState(null);
     const [loader,setLoader] = useState(false);
-    const [showModel, setShowmodel] =useState(false)
 
     useEffect(() => {
         setLoader(false)
@@ -31,12 +29,6 @@ const Main = (props) => {
                 {episodes.map((data) => <Card key={data.id} {...data}/>)}
             </div>
             }
-            {showModel && 
-            <CustomModal styles={{background:"grey"}} closeModal={() =>setShowmodel(false)} >
-                <div >
-                <iframe width="420" height="315"  src="https://www.youtube.com/embed/ScMzIvxBSi4?autoplay=1" title="YouTube video player" frameborder="0" auto allowfullscreen></iframe>
-                </div>
-            </CustomModal>}
         </div>
     )
 }
